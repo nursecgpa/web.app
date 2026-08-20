@@ -3,7 +3,7 @@
   "short_name": "NurseCGPA",
   "description": "CGPA calculator and academic tracker for nursing and midwifery students.",
   "start_url": "./",
-  "scope":./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#f8f5ee",
   "theme_color": "#00843D",
