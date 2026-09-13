@@ -5948,8 +5948,8 @@ var qrcode = function() {
     showModal('Notifications', `
       <div class="info-toggle-row"><span>Push Notifications</span><span class="drawer-toggle-switch ${notifPrefs.push ? 'is-on' : ''}" onclick="toggleNotifPref('push', this)"><span class="drawer-toggle-knob"></span></span></div>
       <div class="info-toggle-row"><span>Email Alerts</span><span class="drawer-toggle-switch ${notifPrefs.email ? 'is-on' : ''}" onclick="toggleNotifPref('email', this)"><span class="drawer-toggle-knob"></span></span></div>
-    
-  }
+   ');
+      }
   function toggleNotifPref(key, el){
     notifPrefs[key] = !notifPrefs[key];
     appData.notifPrefs = notifPrefs;
